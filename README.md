@@ -4,9 +4,6 @@
 
 <br />
 
-## 매장의 민족 영상 및 소개
-
-- [홍보용 UCC 링크](https://youtu.be/RTmJTcex7Qg)
 
 ## 기획 배경
 
@@ -127,7 +124,7 @@
 
 <img src = "exec/img/특화아키텍쳐C208.png" width=60%  height=60%>
 
-### 게임 기대효과
+### 기대효과
 
 ---
 
@@ -203,8 +200,6 @@
   - Build 자동화의 확립
   - 자동화 테스트 수행
 
-- **배포** : 배포에 관한 상세 정보는 [여기](/exec/)에 있습니다.
-
 ### 👨‍👩‍👧 협업 툴
 
 ---
@@ -222,12 +217,6 @@
   <img src = "exec/img/notion.png" width=60%  height=60%>
 
 - Mattermost
-
-### 💭 기능 명세서
-
----
-
-- [기능명세서](/exec/img/기능명세서.pdf)
 
 ## ✨컨벤션
 
@@ -383,53 +372,4 @@ FE/customer
 |   8761   |                   Discovery - Service                   |
 |   9999   |                     Cart - Service                      |
 
-### 😃 팀원 역할
 
-#### 🍎 권영재(FE)
-
-- Redux 설정, 지도 api연동, 슬라이드 구현
-- 사장님 프로젝트 총 담당(주문 현황 드래그 앤 드랍 구현)
-- 사장 및 고객의 공통적인 로그인 및 회원가입 로직 구현
-
-<br>
-    
-####  🍈 김대홍(BE)
-
-- API Gateway Filter 를 이용한 회원별 인증, 인가 처리
-- Spring Security, JWT를 이용한 로그인, 회원가입(user 서버)
-- JWT, Redis를 이용해 Refresh token 관리
-- SSE 알림 기능
-- 네이버 문자 API 를 통한 회원가입 문자인증
-- QR생성 API
-
-<br>
-
-#### 🍊 신관우(INFRA, BE)
-
-- Jenkins 및 docker를 통한 CI/CD 구축
-- Gerrit 연동을 통한 코드리뷰 환경 설정
-- 주문 로직(store 서버) 개발
-
-<br>
-
-#### 🍋 이승태(FE)
-
-- 로그인,회원가입,매장상세,메뉴상세
-
-<br>
-
-#### 🍉 이현우(FE)
-
-- 장바구니, 카드 등록 및 결제, 간편 비밀번호
-- 결제 통신간 암호화
-
-<br>
-
-#### 🍌 전윤철(BE)
-
-- 결제 로직(pay 서버, payment 서버) 개발
-- 카카오페이 등 외부 결제 API 연동
-- 자체 페이 구현
-- 암호화 및 해싱 알고리즘 적용
-
-<br>
